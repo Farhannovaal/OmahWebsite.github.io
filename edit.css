@@ -271,6 +271,7 @@
     border-radius: 5px;
     transform: translateX(100%);
     margin-top: 20px;
+    cursor: pointer;
 }
 
 .paket-wrapper .row2-paket .btn-paket2{
@@ -283,6 +284,7 @@
     border-radius: 5px;
     transform: translateX(100%);
     margin-top: 20px;
+    cursor: pointer;
 }
 
 .review-wrapper{
@@ -355,6 +357,7 @@
     color: white;
     text-align: center;
     margin-top: 50px;
+    cursor: pointer;
 }
 
 
@@ -409,6 +412,10 @@
     font-weight: 300;
     font-size: 16px;
     margin-top: 10px;
+    cursor: pointer;
+}
+.footer .footer-right .footer-col li:hover{
+    opacity: 70%;
 }
 
 .footer .footer-right .footer-col .form-input{
@@ -436,6 +443,7 @@
     box-shadow: 1px 1px 1px black;
     font-family: var(--main-font);
     font-weight: 500;
+    cursor: pointer;
 }
 
 .sosial-media{
