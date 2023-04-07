@@ -106,7 +106,7 @@ section{
     padding: 30px;
     position: absolute;
     bottom: 0;
-    float: left;
+    /* float: left; */
     box-shadow:  2px 2px 2px 2px rgba(88, 88, 88, 0.22);
 }
 .home .home-wrapper .card-list{
@@ -401,10 +401,15 @@ footer .footer-wrapper .sosmed{
 
 
 .navbar .navbar-wrapper{
+    position: fixed;
     display: flex;
     justify-content: space-between;
-    margin: 50px 0px;
+    margin: 0px 0px;
     border-bottom: var(--second-color) solid 2px; 
+    z-index: 2;
+    background-color: white;
+    top: 75px;
+    left: 0;
 }
 
 .navbar-wrapper .logo{
@@ -455,6 +460,7 @@ footer .footer-wrapper .sosmed{
     display: block;
     margin-top: 70px;
     left: 0;
+    top: 0;
 }
 
 
@@ -570,9 +576,7 @@ footer .footer-wrapper .sosmed{
     text-align: center;
     gap: 0px;
     flex-wrap: wrap;
-    margin-bottom: 20px;
-    margin-top: 400px;
-    margin-left: 0px;
+    
 }
 
 .product-wrapper .nav-heading .menu-product{
