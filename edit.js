@@ -1,5 +1,5 @@
 let toggleMenu = document.querySelector(".menu-toggle");
-let menuWrap = document.querySelector(".navbar-swipper");
+let menuWrap = document.querySelector(".navbar");
 
 // Eksekusi Toggle
 
